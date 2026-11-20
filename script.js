@@ -10,8 +10,8 @@ var CONTACT = {
 /* Team: copy each photo into images/team/ and set photo to its path, for example photo: "images/team/ada.jpg". Add or remove lines to change the number of slides. */
 var TEAM = [
   { name: "Abdurrahman Lawan Imam", role: "Software Engineer", photo: "images/team/abdurrahman-lawan-imam.jpg" },
-  { name: "Abdurrashed Umar", role: "Software / Cyber Security", photo: "images/team/abdurrashed-umar.jpg" },
-  { name: "", role: "", photo: "" },
+  { name: "Abdulrashid Umar", role: "Software / Cyber Security", photo: "images/team/abdurrashed-umar.jpg" },
+  { name: "Ahmad Saluhu Sulaiman", role: "Security Researcher/Bug Hunter", photo: "images/team/ahmad.png" },
   { name: "", role: "", photo: "" },
   { name: "", role: "", photo: "" },
   { name: "", role: "", photo: "" }
