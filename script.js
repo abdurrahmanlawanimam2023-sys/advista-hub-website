@@ -19,7 +19,7 @@ var TEAM = [
 
 /* What people said: only real, permitted quotes. photo is optional (for example "images/people/ada.jpg"). Add or remove lines to change the number of cards. Empty slots show a placeholder. */
 var SAID = [
-  { quote: "", name: "Josef Oluwode", role: "ICT Consultant", photo: "images/people/josef-oluwode.jpg" },
+  { quote: "If you need an ICT partner who understands both high-level system security and practical business needs, AdVista Hub delivers every time.", name: "Josef Oluwode", role: "ICT Consultant", photo: "images/people/josef-oluwode.jpg" },
   { quote: "", name: "", role: "", photo: "" },
   { quote: "", name: "", role: "", photo: "" }
 ];
