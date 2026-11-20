@@ -20,8 +20,8 @@ var TEAM = [
 /* What people said: only real, permitted quotes. photo is optional (for example "images/people/ada.jpg"). Add or remove lines to change the number of cards. Empty slots show a placeholder. */
 var SAID = [
   { quote: "If you need an ICT partner who understands both high-level system security and practical business needs, AdVista Hub delivers every time.", name: "Josef Oluwode", role: "ICT Consultant", photo: "images/people/josef-oluwode.jpg" },
-  { quote: "", name: "", role: "", photo: "" },
-  { quote: "", name: "", role: "", photo: "" }
+  { quote: "Partnering with AdVista Hub modernized our entire workflow. They delivered a tailored platform on schedule that saved our team hours of manual administrative work every week.", name: "Auwal Muhammad Isah", role: "CEO RISEs", photo: "" },
+  { quote: "AdVista Hub transformed our exam processing. Generating accurate result sheets and automated remarks used to take weeks; now it happens securely in minutes.", name: "Muhammad Bashir", role: "School Administrators", photo: "" }
 ];
 
 /* Recognition: copy each logo or certificate picture into images/recognition/ and set image to its path (for example "images/recognition/award.png"). Without an image, an icon is shown. Fill title and text for every slot you use. */
