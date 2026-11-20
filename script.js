@@ -12,7 +12,7 @@ var TEAM = [
   { name: "Abdurrahman Lawan Imam", role: "Software Engineer", photo: "images/team/abdurrahman-lawan-imam.jpg" },
   { name: "Abdulrashid Umar", role: "Software / Cyber Security", photo: "images/team/abdurrashed-umar.jpg" },
   { name: "Ahmad Saluhu Sulaiman", role: "Security Researcher/Bug Hunter", photo: "images/team/abdurrashed-umar.jpg" },
-  { name: "Ahmad Saluhu Sulaiman", role: "Security Researcher/Bug Hunter", photo: "images/team/ahmad.jpg" },
+  { name: "Ahmad Saluhu Sulaiman", role: "Security Researcher/Bug Hunter", photo: "images/team/ass.jpg" },
   { name: "", role: "", photo: "" },
   { name: "", role: "", photo: "" },
   { name: "", role: "", photo: "" }
