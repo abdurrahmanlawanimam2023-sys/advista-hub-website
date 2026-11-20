@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AdVista Hub</title>
+<meta name="description" content="AdVista Hub: advertising, technology, education and data solutions under one roof.">
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-code" viewBox="0 0 24 24"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></symbol>
+  <symbol id="i-cap" viewBox="0 0 24 24"><path d="M2 9l10-5 10 5-10 5L2 9zM6 11.5V16c0 1.5 2.7 3 6 3s6-1.5 6-3v-4.5M22 9v6"/></symbol>
+  <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></symbol>
+  <symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6L5 8zM9 8V6a3 3 0 016 0v2"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-left" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></symbol>
+  <symbol id="i-right" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></symbol>
+  <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol>
+  <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 00-4 10.4c.7.7 1 1.4 1 2.6h6c0-1.2.3-1.9 1-2.6A6 6 0 0012 3z"/></symbol>
+  <symbol id="i-layers" viewBox="0 0 24 24"><path d="M12 3l9 5-9 5-9-5 9-5zM3 13l9 5 9-5"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3zM9 12l2 2 4-4"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2 20c0-4 3-6 7-6s7 2 7 6M16 4.5a3.5 3.5 0 010 7M18 14c2.5.5 4 2.5 4 6"/></symbol>
+  <symbol id="i-quote" viewBox="0 0 24 24"><path d="M9 7H5v6h4c0 3-1 4-4 5M19 7h-4v6h4c0 3-1 4-4 5"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="9" r="6"/><path d="M8.5 14L7 22l5-3 5 3-1.5-8"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.5-7 8-7s8 3 8 7"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></symbol>
+</svg>
+
+<div class="topbar">
+  <div class="wrap topbar-in">
+    <span>Innovating Across Industries, Empowering Every Opportunity.</span>
+    <span>Vision • Innovation • Solutions • Technology</span>
+  </div>
+</div>
+
+<header class="site-header" id="hdr">
+  <div class="wrap bar">
+    <a class="brand" href="#home" aria-label="AdVista Hub home"><span class="logo-badge"><img src="images/logo.png" alt="AdVista Hub logo"></span></a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="#home" data-nav="home">Home</a>
+      <a href="#about" data-nav="about">About Us</a>
+      <a href="#services" data-nav="services">Services</a>
+      <a href="#contact" data-nav="contact">Contact Us</a>
+      <a href="#contact" class="btn btn-green nav-cta" data-cta>Start a project <svg class="i"><use href="#i-arrow"/></svg></a>
+    </nav>
+    <button class="burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><svg class="i"><use href="#i-menu"/></svg></button>
+  </div>
+</header>
+
+<main>
+<!-- HOME -->
+<div class="page" data-page="home">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">AdVista Hub</span>
+        <h1 id="hero-title" aria-label="Innovating Across Industries, Empowering Every Opportunity."><span class="ghost">Innovating Across Industries, <em>Empowering Every Opportunity.</em></span><span class="typed" aria-hidden="true"></span></h1>
+        <p class="lead">AdVista Hub brings advertising, technology, education, data solutions and digital platforms under one roof, so businesses, schools and organisations can find the right partner for their next step.</p>
+        <div class="btn-row">
+          <a class="btn btn-lime" href="#services">Explore our services <svg class="i"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn-ghost" href="#contact">Talk to us</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="orbit" aria-hidden="true"><i></i></div>
+        <div class="hero-card" id="hero-card">
+          <span class="corner tl" aria-hidden="true"></span><span class="corner br" aria-hidden="true"></span>
+          <img src="images/logo.png" alt="AdVista Hub logo: a shopping bag and cart combined with the letters A and D">
+          <div class="hero-cap"><span>AdVista Hub</span><span class="live"><i></i>Open for projects</span></div>
+          <span class="shine" aria-hidden="true"></span>
+        </div>
+        <div class="float f2"><span class="dot"><svg class="i"><use href="#i-layers"/></svg></span><span><b>4</b>specialist divisions</span></div>
+        <div class="float f1"><span class="dot"><svg class="i"><use href="#i-shield"/></svg></span><span><b>CAC</b>registered business</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="strip" aria-label="Our motto">
+    <div class="wrap">
+      <div class="strip-grid">
+        <div class="strip-item"><b>Vision</b><span>Seeing opportunity early</span></div>
+        <div class="strip-item"><b>Innovation</b><span>Thinking with purpose</span></div>
+        <div class="strip-item"><b>Solutions</b><span>Building what people need</span></div>
+        <div class="strip-item"><b>Technology</b><span>Creating lasting value</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap split">
+      <div class="prose">
+        <span class="eyebrow">About AdVista Hub</span>
+        <h2>One hub for the work that moves your business forward</h2>
+        <p>AdVista Hub is the parent brand that brings together advertising, technology, education, data solutions and digital platforms, so you do not need a different partner for every need.</p>
+        <p>Our philosophy is to identify opportunities, innovate with purpose, develop meaningful solutions, and apply technology to create value across industries.</p>
+        <div class="btn-row" style="margin-top:6px"><a class="btn btn-green" href="#about">More about us <svg class="i"><use href="#i-arrow"/></svg></a></div>
+      </div>
+      <div class="rows">
+        <a class="row" href="#services"><span class="ico"><svg class="i"><use href="#i-bag"/></svg></span><div><b>Advertising</b><small>Promotion, listings and marketplace</small></div><svg class="i"><use href="#i-arrow"/></svg></a>
+        <a class="row" href="#services"><span class="ico"><svg class="i"><use href="#i-code"/></svg></span><div><b>Technology</b><small>Software, web, IT and cybersecurity</small></div><svg class="i"><use href="#i-arrow"/></svg></a>
+        <a class="row" href="#services"><span class="ico"><svg class="i"><use href="#i-cap"/></svg></span><div><b>Education</b><small>School systems and e-learning</small></div><svg class="i"><use href="#i-arrow"/></svg></a>
+        <a class="row" href="#services"><span class="ico"><svg class="i"><use href="#i-chart"/></svg></span><div><b>Data &amp; analytics</b><small>Databases, reporting and insight</small></div><svg class="i"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="wrap">
+      <div class="sec-row">
+        <div class="sec-head">
+          <span class="eyebrow">Our divisions</span>
+          <h2>Four specialist teams, one shared philosophy</h2>
+        </div>
+        <a class="btn btn-line" href="#services">All services <svg class="i"><use href="#i-arrow"/></svg></a>
+      </div>
+      <div class="cards-4">
+        <a class="dcard" href="#services">
+          <span class="ico"><svg class="i"><use href="#i-code"/></svg></span>
+          <h3>VistTech</h3>
+          <p class="tag">Building Technology. Solving Problems.</p>
+          <p>Software engineering, web development, IT solutions, cybersecurity and digital products.</p>
+          <span class="mot">Code • Create • Innovate <svg class="i"><use href="#i-arrow"/></svg></span>
+        </a>
+        <a class="dcard" href="#services">
+          <span class="ico"><svg class="i"><use href="#i-cap"/></svg></span>
+          <h3>EduVista</h3>
+          <p class="tag">Transforming Education Through Technology.</p>
+          <p>School and college systems, education platforms, e-learning and digital academic solutions.</p>
+          <span class="mot">Learn • Grow • Achieve <svg class="i"><use href="#i-arrow"/></svg></span>
+        </a>
+        <a class="dcard" href="#services">
+          <span class="ico"><svg class="i"><use href="#i-chart"/></svg></span>
+          <h3>DataVista</h3>
+          <p class="tag">Turning Data into Decisions.</p>
+          <p>Data processing, database management, analytics, reporting and information systems.</p>
+          <span class="mot">Discover • Understand • Decide <svg class="i"><use href="#i-arrow"/></svg></span>
+        </a>
+        <a class="dcard" href="#services">
+          <span class="ico"><svg class="i"><use href="#i-bag"/></svg></span>
+          <h3>AdVista</h3>
+          <p class="tag">Advertise Better, Reach Farther.</p>
+          <p>Advertising, business promotion, product and service listings, marketplace and digital marketing.</p>
+          <span class="mot">Your Market, Our Platform <svg class="i"><use href="#i-arrow"/></svg></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Why AdVista Hub</span>
+        <h2>What you get when you work with one hub</h2>
+        <p class="lead">Six reasons organisations bring their projects to us.</p>
+      </div>
+      <div class="tiles">
+        <div class="tile"><span class="ico"><svg class="i"><use href="#i-globe"/></svg></span><h3>Across industries</h3><p>Advertising, technology, education and data work live under one roof, so ideas carry from one field to the next.</p></div>
+        <div class="tile"><span class="ico"><svg class="i"><use href="#i-bulb"/></svg></span><h3>Innovation with purpose</h3><p>New ideas have to earn their place by solving a real problem for you.</p></div>
+        <div class="tile"><span class="ico"><svg class="i"><use href="#i-target"/></svg></span><h3>Practical solutions</h3><p>We judge our work by what it fixes, builds or improves for your business.</p></div>
+        <div class="tile"><span class="ico"><svg class="i"><use href="#i-code"/></svg></span><h3>Technology at the core</h3><p>Technology is applied where it adds value, from classrooms to marketplaces.</p></div>
+        <div class="tile"><span class="ico"><svg class="i"><use href="#i-users"/></svg></span><h3>Specialist divisions</h3><p>Each division focuses on one field, so you speak to a team that knows it well.</p></div>
+        <div class="tile"><span class="ico"><svg class="i"><use href="#i-shield"/></svg></span><h3>A registered business</h3><p>AdVista Hub is a registered business name with the Corporate Affairs Commission (CAC).</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section dark on-dark">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">How we work</span>
+        <h2>From opportunity to value, in four steps</h2>
+        <p class="lead">Our motto is also our method.</p>
+      </div>
+      <div class="proc">
+        <div class="step"><h3>Vision</h3><p>Identify the opportunity worth pursuing.</p></div>
+        <div class="step"><h3>Innovation</h3><p>Approach it with purpose, not novelty for its own sake.</p></div>
+        <div class="step"><h3>Solutions</h3><p>Develop something meaningful that solves the problem.</p></div>
+        <div class="step"><h3>Technology</h3><p>Apply it to create value that lasts.</p></div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section" id="said">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">What people said</span>
+        <h2>Words from the people we work with</h2>
+      </div>
+      <div class="said-flex" id="said-flex"></div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="wrap">
+      <div class="sec-row">
+        <div class="sec-head">
+          <span class="eyebrow">Recognition</span>
+          <h2>Registrations, awards and partners</h2>
+        </div>
+        <div class="arrows">
+          <button type="button" id="rec-prev" aria-label="Previous recognition"><svg class="i"><use href="#i-left"/></svg></button>
+          <button type="button" id="rec-next" aria-label="Next recognition"><svg class="i"><use href="#i-right"/></svg></button>
+        </div>
+      </div>
+      <div class="recs" id="recs" tabindex="0" aria-label="Recognition, scroll sideways"></div>
+      <div class="prog" aria-hidden="true"><i id="rec-prog"></i></div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="wrap inner">
+      <h2>Have a project, a product or an idea?</h2>
+      <a class="btn" href="#contact">Contact AdVista Hub <svg class="i"><use href="#i-arrow"/></svg></a>
+    </div>
+  </section>
+</div>
+
+<!-- ABOUT -->
+<div class="page" data-page="about" hidden>
+  <section class="page-head">
+    <div class="wrap">
+      <span class="eyebrow">About Us</span>
+      <h1>AdVista Hub</h1>
+      <p>AdVista Hub is a registered Nigerian business built to bring advertising, technology, education and data work together in one place.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap split" style="align-items:start">
+      <div class="prose">
+        <h2>Who we are</h2>
+        <p>AdVista Hub is the parent brand that brings together advertising, technology, education, data solutions and digital platforms.</p>
+        <p>Instead of one narrow service, we run specialised divisions, each with its own focus, tagline and motto, so a client can work with a team that understands their field.</p>
+        <p>Our logo says the same thing: a shopping bag and cart for the marketplace, signal arcs for reach, and a bold A and D at the centre.</p>
+      </div>
+      <div class="prose">
+        <h2>What we believe</h2>
+        <p>Our philosophy is to identify opportunities, innovate with purpose, develop meaningful solutions, and apply technology to create value across industries.</p>
+        <dl class="dl">
+          <div><dt>Tagline</dt><dd class="big">Innovating Across Industries, Empowering Every Opportunity.</dd></div>
+          <div><dt>Motto</dt><dd class="big">Vision • Innovation • Solutions • Technology</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="wrap">
+      <div class="sec-head"><span class="eyebrow">Our values</span><h2>What the motto means in practice</h2></div>
+      <div class="grid-4">
+        <article class="card"><h3>Vision</h3><p>We look for where opportunity is forming and help clients get there first.</p></article>
+        <article class="card"><h3>Innovation</h3><p>New ideas have to earn their place by solving a real problem.</p></article>
+        <article class="card"><h3>Solutions</h3><p>We measure our work by what it fixes, builds or improves for the client.</p></article>
+        <article class="card"><h3>Technology</h3><p>We apply it where it adds value across industries, from classrooms to markets.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="team">
+    <div class="wrap">
+      <div class="sec-row">
+        <div class="sec-head">
+          <span class="eyebrow">Our team</span>
+          <h2>The people behind AdVista Hub</h2>
+        </div>
+        <div class="arrows">
+          <button type="button" id="team-prev" aria-label="Previous team members"><svg class="i"><use href="#i-left"/></svg></button>
+          <button type="button" id="team-next" aria-label="Next team members"><svg class="i"><use href="#i-right"/></svg></button>
+        </div>
+      </div>
+      <div class="track" id="team-track" tabindex="0" aria-label="Team members, scroll sideways"></div>
+      <div class="prog" aria-hidden="true"><i id="team-prog"></i></div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="wrap split">
+      <div class="prose">
+        <span class="eyebrow">One parent, four divisions</span>
+        <h2>How AdVista Hub is organised</h2>
+        <p>AdVista Hub is the parent brand and the name on our official correspondence. VistTech, EduVista, DataVista and AdVista are specialised service areas within it, sharing one visual family.</p>
+      </div>
+      <ul class="areas">
+        <li>VistTech: software and technology</li>
+        <li>EduVista: educational technology</li>
+        <li>DataVista: data and analytics</li>
+        <li>AdVista: advertising and marketplace</li>
+      </ul>
+    </div>
+  </section>
+</div>
+
+<!-- SERVICES -->
+<div class="page" data-page="services" hidden>
+  <section class="page-head">
+    <div class="wrap">
+      <span class="eyebrow">Services</span>
+      <h1>Four divisions, one hub</h1>
+      <p>Choose the team that fits your need. Every division works under the AdVista Hub name and philosophy.</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:24px">
+    <div class="wrap">
+      <article class="division">
+        <div>
+          <span class="ico"><svg class="i"><use href="#i-code"/></svg></span>
+          <h2>VistTech</h2>
+          <p class="focus">Software &amp; Technology Solutions</p>
+          <dl class="dl" style="margin-top:18px">
+            <div><dt>Tagline</dt><dd>Building Technology. Solving Problems.</dd></div>
+            <div><dt>Motto</dt><dd>Code • Create • Innovate.</dd></div>
+          </dl>
+        </div>
+        <div>
+          <ul class="areas">
+            <li>Software engineering</li><li>Web development</li><li>IT solutions</li>
+            <li>Cybersecurity</li><li>Technical consulting</li><li>Digital product development</li>
+          </ul>
+          <div class="projects" data-projects="visttech"></div>
+          <div class="btn-row" style="margin-top:24px"><a class="btn btn-green" href="#contact">Ask VistTech <svg class="i"><use href="#i-arrow"/></svg></a></div>
+        </div>
+      </article>
+
+      <article class="division">
+        <div>
+          <span class="ico"><svg class="i"><use href="#i-cap"/></svg></span>
+          <h2>EduVista</h2>
+          <p class="focus">Educational Technology Solutions</p>
+          <dl class="dl" style="margin-top:18px">
+            <div><dt>Tagline</dt><dd>Transforming Education Through Technology.</dd></div>
+            <div><dt>Motto</dt><dd>Learn • Grow • Achieve.</dd></div>
+          </dl>
+        </div>
+        <div>
+          <ul class="areas">
+            <li>School and college systems</li><li>Education management platforms</li>
+            <li>E-learning</li><li>Digital academic solutions</li>
+          </ul>
+          <div class="projects" data-projects="eduvista"></div>
+          <div class="btn-row" style="margin-top:24px"><a class="btn btn-green" href="#contact">Ask EduVista <svg class="i"><use href="#i-arrow"/></svg></a></div>
+        </div>
+      </article>
+
+      <article class="division">
+        <div>
+          <span class="ico"><svg class="i"><use href="#i-chart"/></svg></span>
+          <h2>DataVista</h2>
+          <p class="focus">Data Management &amp; Analytics</p>
+          <dl class="dl" style="margin-top:18px">
+            <div><dt>Tagline</dt><dd>Turning Data into Decisions.</dd></div>
+            <div><dt>Motto</dt><dd>Discover • Understand • Decide.</dd></div>
+          </dl>
+        </div>
+        <div>
+          <ul class="areas">
+            <li>Data processing</li><li>Database management</li><li>Analytics</li>
+            <li>Reporting</li><li>Information systems</li>
+          </ul>
+          <div class="projects" data-projects="datavista"></div>
+          <div class="btn-row" style="margin-top:24px"><a class="btn btn-green" href="#contact">Ask DataVista <svg class="i"><use href="#i-arrow"/></svg></a></div>
+        </div>
+      </article>
+
+      <article class="division">
+        <div>
+          <span class="ico"><svg class="i"><use href="#i-bag"/></svg></span>
+          <h2>AdVista</h2>
+          <p class="focus">Advertising &amp; Marketplace</p>
+          <dl class="dl" style="margin-top:18px">
+            <div><dt>Tagline</dt><dd>Advertise Better, Reach Farther.</dd></div>
+            <div><dt>Motto</dt><dd>Your Market, Our Platform.</dd></div>
+          </dl>
+        </div>
+        <div>
+          <ul class="areas">
+            <li>Advertising</li><li>Business promotion</li><li>Product and service listings</li>
+            <li>Marketplace</li><li>Digital marketing</li>
+          </ul>
+          <div class="projects" data-projects="advista"></div>
+          <div class="btn-row" style="margin-top:24px"><a class="btn btn-green" href="#contact">Ask AdVista <svg class="i"><use href="#i-arrow"/></svg></a></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="wrap inner">
+      <h2>Not sure which division you need?</h2>
+      <a class="btn" href="#contact">Tell us what you are working on <svg class="i"><use href="#i-arrow"/></svg></a>
+    </div>
+  </section>
+</div>
+
+<!-- CONTACT -->
+<div class="page" data-page="contact" hidden>
+  <section class="page-head">
+    <div class="wrap">
+      <span class="eyebrow">Contact Us</span>
+      <h1>Let's talk about your next step</h1>
+      <p>Tell us what you need and which division it relates to. We will point you to the right team.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap split" style="align-items:start">
+      <form class="form" id="contact-form" novalidate>
+        <div class="two">
+          <div class="field">
+            <label for="f-name">Full name</label>
+            <input id="f-name" name="name" type="text" autocomplete="name">
+            <div class="err" id="e-name"></div>
+          </div>
+          <div class="field">
+            <label for="f-email">Email</label>
+            <input id="f-email" name="email" type="email" autocomplete="email">
+            <div class="err" id="e-email"></div>
+          </div>
+        </div>
+        <div class="two">
+          <div class="field">
+            <label for="f-phone">Phone (optional)</label>
+            <input id="f-phone" name="phone" type="tel" autocomplete="tel">
+          </div>
+          <div class="field">
+            <label for="f-div">Division</label>
+            <select id="f-div" name="division">
+              <option>Not sure yet</option>
+              <option>VistTech: software and technology</option>
+              <option>EduVista: educational technology</option>
+              <option>DataVista: data and analytics</option>
+              <option>AdVista: advertising and marketplace</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label for="f-msg">How can we help?</label>
+          <textarea id="f-msg" name="message"></textarea>
+          <div class="err" id="e-msg"></div>
+        </div>
+        <div class="btn-row"><button class="btn btn-green" type="submit">Prepare my message <svg class="i"><use href="#i-arrow"/></svg></button></div>
+        <p class="note">This page does not send messages by itself. Prepare your message here, then open it in your email app or copy it and send it to the email address beside this form.</p>
+        <div class="result" id="result" hidden>
+          <strong>Your message is ready</strong>
+          <pre id="result-text"></pre>
+          <div class="btn-row"><a class="btn btn-green" id="mail-btn" href="#contact">Open in email app <svg class="i"><use href="#i-arrow"/></svg></a><button class="btn btn-line" type="button" id="copy-btn">Copy message</button></div>
+          <p class="note" id="copy-note" aria-live="polite"></p>
+        </div>
+      </form>
+
+      <div>
+        <h2 style="font-size:clamp(26px,3.5vw,36px);font-weight:800;margin-bottom:8px">Reach AdVista Hub</h2>
+        <dl class="info-list" id="info"></dl>
+      </div>
+    </div>
+  </section>
+</div>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>AdVista Hub</h4>
+        <p><strong>Innovating Across Industries, Empowering Every Opportunity.</strong></p>
+        <p class="small">Vision • Innovation • Solutions • Technology</p>
+      </div>
+      <div>
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Divisions</h4>
+        <ul>
+          <li><a href="#services">VistTech</a></li>
+          <li><a href="#services">EduVista</a></li>
+          <li><a href="#services">DataVista</a></li>
+          <li><a href="#services">AdVista</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="yr"></span> AdVista Hub. Registered business name, CAC.</span>
+      <span>VistTech, EduVista, DataVista and AdVista are divisions of AdVista Hub.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Image preview">
+  <button class="lightbox-close" id="lightbox-close" type="button" aria-label="Close preview"><svg class="i"><use href="#i-close"/></svg></button>
+  <img id="lightbox-img" alt="">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
